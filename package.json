@@ -1,0 +1,20 @@
+{
+  "name": "twitterbot",
+  "version": "0.1.0",
+  "description": "Post funny things to twitter",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harry Rickards <rickards@mit.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "mongoose": "^4.3.1",
+    "oauth": "^0.9.14",
+    "request": "^2.67.0"
+  }
+}

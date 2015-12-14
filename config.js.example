@@ -1,0 +1,12 @@
+var config = module.exports = {};
+
+// twitter app settings
+config.twitter_key = "";
+config.twitter_secret = "";
+
+// callback base URL for twitter oauth (must be accessible here)
+config.callback_base = "http://socialtwitterbot.herokuapp.com";
+
+// server settings
+config.database_url = process.env.MONGOLAB_URI || "mongodb://localhost/twitter"; // mongolab on heroku
+config.web_port = process.env.PORT || 3000;
